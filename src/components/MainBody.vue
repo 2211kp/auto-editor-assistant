@@ -160,7 +160,7 @@ async function copyCommands() {
         </el-form-item>
 
         <el-form-item :label="t('silentThreshold')">
-          <el-slider v-model="store.formData.silentThreshold" show-input min=-40 max=60/>
+          <el-slider v-model="store.formData.silentThreshold" show-input/>
         </el-form-item>
 
         <el-form-item :label="t('motionThreshold')">
